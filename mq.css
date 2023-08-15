@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Roboto:wght@400;500&family=Rubik&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+/* Typical device break points
+Small: smaller than 640px or landscape phones (max-width: 575.98px)
+Medium: 641px to 1007px or tablets (max-width: 767.98px)
+Large: 1008px and larger or desktops (max-width: 991.98px) */
+@media screen and (max-width: 768px)    {
+    header#header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    
+    
+    header#header i {
+        display: block;
+        font-size: 3em;
+        justify-content: space-around;
+    }
+    header#header  i:hover {
+        color: aqua;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    div#navbar a {
+        text-decoration: none;
+        color: black;
+        background-color: aqua;
+        padding: 10px 16px;
+        border-radius: 10px;
+    }
+    div#navbar {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .snimgp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .faleconosco h1 {
+        font-size: 1.3em;
+    }
+
+    .contato {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen  and (min-width: 1000px) {
+
+    .snimgp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 80%;
+        gap: 40px;
+        text-align-last: justify;
+    }
+
+
+
+
+}
+
+
+
